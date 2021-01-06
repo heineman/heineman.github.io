@@ -1,24 +1,38 @@
 <html>
 <body>
 
-<h3>Draw Application</h3>
+<h3>Draw Application</h3> 
 
 <p>The Draw application represents a case study in designing a GUI-based application that incorporates a number of design patterns. Find the git repository at <a href="https://github.com/heineman/DesignPatterns_Draw">https://github.com/heineman/DesignPatterns_Draw</a>.</p>
 
-<ol>
+<ul>
+
 <li>Singleton -- <b>Restrict object creation for a class to only one instance</b>. Used in <a href="https://heineman.github.io/Draw/api-draw.5/draw/tools/Tools.html">Tools</a> and <a href="https://heineman.github.io/Draw/api-draw.5/draw/clipboard/ClipboardManager.html">ClipboardManager</a>
 </li>
 
 <li>Adapter -- <b>Allow classes with incompatible interfaces to work together</b>. Used in <a href="https://heineman.github.io/Draw/api-draw.5/draw/controller/handler/ActiveToolHandler.html">ActiveToolHandler</a>.
 
 <img src="https://heineman.github.io/Draw/api-draw.5/draw/controller/handler/doc-files/adapter.png"></img>
-
 </li>
-<li>Chain of Responsibility</li>
-<li>Command</li>
-<li>Composite</li>
-<li>Visitor</li>
-</ol>
+
+<li>Chain of Responsibility -- <b>Delegate commands to a chain of processing objects.</b> Used in <a href="https://heineman.github.io/Draw/api-draw.5/draw/controller/handler/Handler.html">Handler</a>.
+
+<img src="https://heineman.github.io/Draw/api-draw.5/draw/controller/handler/doc-files/chain-of-responsibility.png"></img>
+</li>
+
+<li>Command -- <b>Create objects which encapsulate actions and parameters</b>. Used in <a href="https://heineman.github.io/Draw/api-draw.5/draw/controller/command/Command.html">Command</a>.
+</li>
+
+<li>Composite -- <b>Compose similar objects so they can be manipulated as one object</b>. Used in <a href="https://heineman.github.io/Draw/api-draw.5/">Group</a>.
+
+<img src="https://heineman.github.io/Draw/api-draw.5/draw/model/doc-files/composite.png"></img>
+</li>
+
+<li>Visitor -- <b>Separate algorithm from object structure</b>. Used in <a href="https://heineman.github.io/Draw/api-draw.5/draw/model/Visitor.html">Visitor</a>.
+
+<img src="https://heineman.github.io/Draw/api-draw.5/draw/controller/visitors/doc-files/visitor.png"></img>
+</li>
+</ul>
 
 <p>The generated JavaDoc for the different draw.N tags are found below. The final version (draw.5) represents the completed application.</p>
 
